@@ -1,5 +1,7 @@
 74LVCH1T45 x3 Breakout
-----------------------
+======================
+
+![Schematic](schematic.png)
 
 This is a design for a very simple DIP breakout for three 74LVCH1T45
 level shifters in tiny SOT363 packages. These devices are bidirectional
@@ -8,6 +10,8 @@ the other, even in the same application, making them useful for
 communicating with external circuits that might have higher or lower
 voltages. The `H` in the model number indicates an active bus hold
 feature that makes external pull-up/down unnecessary.
+
+![Layout](layout.png)
 
 The important parts of the board are these:
 
